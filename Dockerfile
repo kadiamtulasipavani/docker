@@ -1,4 +1,4 @@
-FROM debian:9.3-slim
+FROM debian
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
